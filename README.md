@@ -3,6 +3,7 @@
 # 🔬 BREAST CANCER SENTINEL 2.0
 ### Clinical AI Diagnostic Decision Support System for Breast FNA Cytology
 
+[![CI](https://github.com/Paritosh8-AI/Breast-Cancer-Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/Paritosh8-AI/Breast-Cancer-Detection/actions)
 [![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.5+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
