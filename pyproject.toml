@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "breast-cancer-sentinel"
+version = "2.0.0"
+description = "Clinical AI Diagnostic Decision Support System for Breast Cancer Detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Paritosh Mukherjee", email = "paritoshmukherje8@gmail.com" }
+]
+keywords = [
+    "breast-cancer",
+    "oncology",
+    "machine-learning",
+    "fna-cytology",
+    "fastapi",
+    "streamlit",
+    "explainable-ai"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Healthcare Industry",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "scikit-learn>=1.5.0",
+    "scipy>=1.13.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "pydantic>=2.8.0",
+    "pydantic-settings>=2.4.0",
+    "streamlit>=1.39.0",
+    "plotly>=5.24.0",
+    "joblib>=1.4.0"
+]
+
+[project.scripts]
+cancer-sentinel = "cancer_ai.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["cancer_ai*"]
